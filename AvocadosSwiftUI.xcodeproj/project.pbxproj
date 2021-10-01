@@ -11,6 +11,8 @@
 		803A3EF227057E00002B8056 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A3EF127057E00002B8056 /* RipeningStagesView.swift */; };
 		803A3EF427057E28002B8056 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A3EF327057E28002B8056 /* SettingsView.swift */; };
 		803A3EF627057E5A002B8056 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A3EF527057E5A002B8056 /* AppView.swift */; };
+		8047CD5A270739CA00F1179C /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047CD59270739CA00F1179C /* HeaderModel.swift */; };
+		8047CD5C27073A3300F1179C /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047CD5B27073A3300F1179C /* HeaderData.swift */; };
 		805E71862706F2C200D25D90 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E71852706F2C200D25D90 /* HeaderView.swift */; };
 		80A866D9270496DE00552F8B /* AvocadosSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A866D8270496DE00552F8B /* AvocadosSwiftUIApp.swift */; };
 		80A866DB270496DE00552F8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A866DA270496DE00552F8B /* ContentView.swift */; };
@@ -24,6 +26,8 @@
 		803A3EF127057E00002B8056 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		803A3EF327057E28002B8056 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		803A3EF527057E5A002B8056 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		8047CD59270739CA00F1179C /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		8047CD5B27073A3300F1179C /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		805E71852706F2C200D25D90 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		80A866D5270496DE00552F8B /* AvocadosSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocadosSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A866D8270496DE00552F8B /* AvocadosSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		803A3EEC27057D0A002B8056 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8047CD5B27073A3300F1179C /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -54,6 +59,7 @@
 		803A3EED27057D10002B8056 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8047CD59270739CA00F1179C /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 				803A3EF227057E00002B8056 /* RipeningStagesView.swift in Sources */,
 				80A866D9270496DE00552F8B /* AvocadosSwiftUIApp.swift in Sources */,
 				803A3EF027057DD1002B8056 /* AvocadosView.swift in Sources */,
+				8047CD5A270739CA00F1179C /* HeaderModel.swift in Sources */,
+				8047CD5C27073A3300F1179C /* HeaderData.swift in Sources */,
 				805E71862706F2C200D25D90 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
