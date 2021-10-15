@@ -105,7 +105,7 @@ struct RipeningView: View {
         }
         .edgesIgnoringSafeArea(.all)
         .onAppear {
-            self.slideInAnimation.toggle()
+            self.slideInAnimation = true
         }
     }
 }
